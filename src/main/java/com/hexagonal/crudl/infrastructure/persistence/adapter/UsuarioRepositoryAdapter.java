@@ -3,6 +3,7 @@ package com.hexagonal.crudl.infrastructure.persistence.adapter;
 import com.hexagonal.crudl.domain.model.Cedula;
 import com.hexagonal.crudl.domain.model.Usuario;
 import com.hexagonal.crudl.domain.port.out.UsuarioRepositoryPort;
+import com.hexagonal.crudl.infrastructure.persistence.entity.UsuarioJpaEntity;
 import com.hexagonal.crudl.infrastructure.persistence.mapper.UsuarioPersistenceMapper;
 import com.hexagonal.crudl.infrastructure.persistence.repository.UsuarioJpaRepository;
 import org.springframework.stereotype.Component;
